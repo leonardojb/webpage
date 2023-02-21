@@ -49,12 +49,26 @@
 	<link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet">
 </head>
 <body>
-	<img src="photo.jpg" alt="Profile Picture" class="profile-pic"> 
+	<img src="photo.jpg" alt="Profile Picture" class="profile-pic" id="picjs"> 
     <h1>leonardojb</h1>
 	<div>
 		<a href="https://www.linkedin.com/in/leonardojb/" target="_blank" class="icon"><img src="linkedin.png" alt="LinkedIn"></a>
 		<a href="https://github.com/leonardojb" target="_blank" class="icon"><img src="git.png" alt="GitHub"></a>
 		<a href="mailto:leonardo.bruno@alumni.usp.com" class="icon"><img src="mail.png" alt="Email"></a>
 	</div>
+
+	<script>
+		var profilePic = document.getElementById('picjs');
+	  
+		profilePic.addEventListener('mouseover', function() {
+		  profilePic.style.transform = 'scale(1.2)';
+		  profilePic.style.transition = 'transform 0.2s';
+		});
+	  
+		profilePic.addEventListener('mouseout', function() {
+		  profilePic.style.transform = 'scale(1)';
+		  profilePic.style.transition = 'transform 0.5s';
+		});
+	  </script>	  
 </body>
 </html>
