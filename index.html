@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>leonardojb</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<style>
         h1 {
             font-size: 40px;
@@ -14,12 +15,17 @@
 			text-align: center;
         }
 		body {
+			display: block;
 			background-color: #fffcfc;
-            text-align: center;
+			text-align: center;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			margin-top: 10px;
 		}
 		.profile-pic {
-			display: block;
-            margin: 120px auto 60px;
+            margin: 120px auto 40px;
             width: 200px;
 			height: 200px;
 			border-radius: 50%;
@@ -37,24 +43,10 @@
 			max-width: 100%;
 			max-height: 100%;
 		}
-		@media (max-width: 720px) {
-  		.profile-pic {
-   		 width: 500px;
-   		 height: 500px;
-  		}
-  		.icon {
-   		 width: 120px;
-   		 height: 120px;
-   		 line-height: 30px;
-  		}
-  		.icon img {
-   		 max-width: 100%;
-   		 max-height: 100%;
-  		}
-}
-</style>
-<link rel="icon" type="image/x-icon" href="favicon.png">
-<link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet">
+
+	</style>
+	<link rel="icon" type="image/x-icon" href="favicon.png">
+	<link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet">
 </head>
 <body>
 	<img src="photo.jpg" alt="Profile Picture" class="profile-pic"> 
