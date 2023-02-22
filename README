@@ -1,0 +1,16 @@
+I made this HTML trying to replicate a professional website of a friend of mine.
+
+- Description
+  - The website includes a header with the owners nickname, a profile picture, and links to their LinkedIn, GitHub, and email. The website uses the Inter font from Google Fonts and includes font-awesome icons for the links. The background color is set to a light shade of white, and the page is centered with flexbox.
+
+- Usage
+  - To use this code, simply copy and paste it into an HTML file or use it as a template for your own personal website. You may need to change the profile picture and links to fit your own information.
+
+- Credits
+    - This code uses the following resources:
+      - Inter font from Google Fonts
+      - Font Awesome icons from fontawesome.com
+      - scripts.js file responsable for the pic animation.
+
+- License
+    - This code is released under the MIT License.
