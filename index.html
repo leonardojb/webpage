@@ -94,10 +94,10 @@
         color: rgba(255, 255, 255, 0.781);
         font-size: 20px;
     }
-	@media (max-width: 767px) {
-  a.dark-mode-toggle {
-    margin-left: 10px;
-  }
+	.container {
+		display: flex;
+		justify-content: center; /* center horizontally */
+		align-items: center; /* center vertically */
 }
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
@@ -105,9 +105,11 @@
     <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet">
   </head>
   <body>
+	<div class="container">
 	<a href="" id="dark-mode-toggle" class="icon" style="margin-left: 800px">
 		<i class="fa-solid fa-lightbulb"></i>
 	</a>
+</div>
 	<img src="photo.jpg" alt="Profile Picture" class="profile-pic" id="picjs"> 
 	<h1>leonardojb</h1>
 	<div>
